@@ -7,28 +7,38 @@
   </head>
   <body>
     <!-- Header -->
-    <div>
+    <header>
       <h1>My Website</h1>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <!-- Sections -->
-    <div>
-      <h2>Section One</h2>
-      <p>This is the first paragraph in <span>section one</span></p>
-      <p>This is the second paragraph in <span>section one</span></p>
-    </div>
-    <div>
-      <h2>Section Two</h2>
-      <p>This is the first paragraph in <span>section two</span></p>
-      <p>This is the second paragraph in <span>section two</span></p>
-    </div>
+    
+    <main>
+      <!-- Sections -->
+      <section id="Contact">
+        <div class="card text-center">
+          <h2 class="text-lg">Section One</h2>
+          <p class="lead ">This is the first paragraph in <span class="primary-text">section one</span></p>
+          <p>This is the second paragraph in <span class="secondary-text">section one</span></p>
+        </div>
+      </section>
+
+      <section id="Contact">
+        <div class="card text-center">
+          <h2 class="text-xl">Section Two</h2>
+          <p>This is the first paragraph in <span class="primary-text">section two</span></p>
+          <p>This is the second paragraph in <span class="secondary-text">section two</span></p>
+        </div>
+      </section>
+    </main>
 
     <!-- Footer -->
-    <div>&copy; 2024 My Website</div>
+    <footer>&copy; 2024 My Website</footer>
   </body>
 </html>
